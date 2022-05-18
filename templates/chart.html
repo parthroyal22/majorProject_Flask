@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8">
+  
+
+    <!-- JQuery links  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+</head>
+    <body>
+     	<div class='jumbo'>
+     		<div id='container' class="highchart"></div>
+        </div>
+        <br>
+	<script>
+    $( document ).ready(function()
+    {
+        $.getJSON('/api', function(data){
+            console.log(data);
+        });
+    });
+
+		
+	</script>
+	</body>
+
+</html>
