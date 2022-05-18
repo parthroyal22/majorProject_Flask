@@ -1,7 +1,1 @@
-#Virtual Environment 
-venv/
-
-instance/*
-folder_name/*
-__pycache__/
-
+venv/*
